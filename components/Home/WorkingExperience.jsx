@@ -8,7 +8,7 @@ const experienceData = [
     company: "College Project",
     role: "Full Stack developer",
     Project:"Library Management System",
-    year: "2024 - 2025",
+    year: "2024-2025",
     href:"https://github.com/D-cmd-art/library",
   },
   {
