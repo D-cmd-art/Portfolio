@@ -38,7 +38,7 @@ const Header = () => {
 
             <p className="text-gray-400 leading-relaxed">
               because if the cover doesn’t impress you,
-              how can it impress anyone else?
+              how can it impress anyone else??
             </p>
           </div>
 
