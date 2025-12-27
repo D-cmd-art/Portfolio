@@ -12,7 +12,7 @@ export default function ContactPage() {
   const handleSubmit = async (e) => {
     e.preventDefault();
    console.log(name,email,message);
-   let result= await fetch (" http://localhost:3000/api/form",{
+   let result= await fetch (" https://portfolio-two-mu-48.vercel.app//api/form",{
     method:"POST",
     body:JSON.stringify({userName:name,email,message})
 
