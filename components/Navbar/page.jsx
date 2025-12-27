@@ -10,8 +10,8 @@ export default function Navbar() {
           </Link>
         </li>
         <li>
-          <Link href="/about" className="hover:text-gray-300">
-            About Us
+          <Link href="/skills" className="hover:text-gray-300">
+            Skills
           </Link>
         </li>
         <li>

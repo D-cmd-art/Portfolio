@@ -42,7 +42,7 @@ export default function WorkingExperience() {
     <section className={styles.container}>
       <h2 className={styles.title}>Working Experience and Projects</h2>
 
-      <div className={styles.grid}>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
         {experienceData.map((item, index) => (
           <div key={index} className={styles.card}>
             <h3>{item.company}</h3>

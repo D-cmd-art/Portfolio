@@ -25,11 +25,11 @@ const Header = () => {
           {/* Text */}
           <div className="max-w-lg">
             <p className="text-purple-400 text-sm uppercase tracking-widest mb-2">
-              Hello, I am Bob
+              Hello, I am SANJIB THAPA
             </p>
 
             <h1 className="text-white text-3xl md:text-4xl font-bold mb-4">
-              A Creative Designer
+              A Creative Designer, and Developer
             </h1>
 
             <p className="text-gray-300 leading-relaxed mb-2">
