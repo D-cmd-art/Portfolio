@@ -32,6 +32,13 @@ const experienceData = [
     year: "2024 - 2025",
     href:"https://bhokexpress.com/",
   },
+   {
+    company: "",
+    role: "School Management System",
+    Project:"Full Stack Web Application",
+    year: "2026 -2027",
+    href:"https://schoolfrontend-sepia.vercel.app/",
+  },
   
 ];
 
@@ -39,10 +46,10 @@ const experienceData = [
 
 export default function WorkingExperience() {
   return (
-    <section className={styles.container}>
+    <section className={`${styles.container} bg-[#1A0B2E]`}>
       <h2 className={styles.title}>Working Experience and Projects</h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-4 sm:gap-6 md:gap-8">
         {experienceData.map((item, index) => (
           <div key={index} className={styles.card}>
             <h3>{item.company}</h3>
@@ -50,13 +57,13 @@ export default function WorkingExperience() {
             <p>{item.Project}</p>
             <span>{item.year}</span>
         <a 
-  href={item.href} 
-  target="_blank" 
-  rel="noopener noreferrer" 
-  className={styles.button}
->
-  View
-</a>
+          href={item.href} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className={styles.button}
+        >
+          View
+        </a>
           </div>
           
         ))}
