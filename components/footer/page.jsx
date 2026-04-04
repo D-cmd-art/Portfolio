@@ -35,4 +35,6 @@ export default function FooterPage() {
       </div>
     </footer>
   );
+
+  
 }
